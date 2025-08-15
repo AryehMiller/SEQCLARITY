@@ -17,7 +17,7 @@
 
 ## Introduction
 
-SEQCLARITY is a program designed to perform codon-aware multiple sequence alignment, codon-aware residue filtering and masking, codon-aware alignment trimming, and nucleotide backtranslation. This program is particularly useful for adding additional species to an existing alignment of orthologs while maintaining frame integrity. This program relies heavily on three already developed tools (MACSE, HMMCleaner, and TrimAl), but integrates these three using custom scripts to enable backtranslation between amino acid masking/filtering and the underlying nucleotide sequences to produce an improved nucleotide and protein sequence alignment by keeping track of filtered residues.
+SEQCLARITY is a program designed to perform codon-aware multiple sequence alignment, codon-aware residue filtering and masking, codon-aware alignment trimming, and nucleotide backtranslation. This program is particularly useful for adding additional species to an existing alignment of orthologs while maintaining frame integrity. This program relies heavily on three already developed tools (MACSE, HMMCleaner, and TrimAl), but integrates these three using custom scripts to enable backtranslation between amino acid masking/filtering and the underlying nucleotide sequences to produce an improved nucleotide and protein sequence alignment by keeping track of filtered residues to maintain in-frame integrity.
 
 ## Should I use SEQCLARITY?
 
